@@ -6,7 +6,7 @@ import java.io.IOException;
  * Hello Word
  */
 
-class Main { 
+public class Bee1000 { 
     public static void main(String[] args) throws IOException {
         System.out.println("Hello Word");
     }

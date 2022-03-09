@@ -2,7 +2,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Hall{
+/**
+ *  Hall dos Assassinos
+ */
+
+class Bee1861{
 
     public static void removeDuplicatas(Lista matou, Lista assassinos){
 
