@@ -6,7 +6,6 @@ import java.util.Scanner;
 /**
  * Produto Simples
  */
-
 public class Bee1004 {
     public static void main(String[] args) throws IOException{
         Scanner scan = new Scanner(System.in);
