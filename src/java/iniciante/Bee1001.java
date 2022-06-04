@@ -13,6 +13,8 @@ public class Bee1001 {
 
         int a = scan.nextInt();
         int b = scan.nextInt();
+
+        scan.close();
         
         System.out.println("X = " + (a + b));
     }

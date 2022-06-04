@@ -13,6 +13,7 @@ public class Bee1005 {
         
         double a = scan.nextDouble();
         double b = scan.nextDouble();
+        scan.close();
 
         double media = ((a * 3.5) + (b * 7.5))/11;
         System.out.printf("MEDIA = %5.5f\n", media);

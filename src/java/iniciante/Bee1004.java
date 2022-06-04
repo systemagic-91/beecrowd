@@ -11,7 +11,8 @@ public class Bee1004 {
         Scanner scan = new Scanner(System.in);
 
         int a = scan.nextInt();
-        int b = scan.nextInt();     
+        int b = scan.nextInt();    
+        scan.close(); 
 
         System.out.println("PROD = " + (a * b));   
     }

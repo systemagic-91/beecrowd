@@ -14,6 +14,7 @@ public class Bee1002 {
 
         Scanner scan = new Scanner(System.in);
         double raio = scan.nextDouble();
+        scan.close();
         System.out.printf("A=%5.4f\n", (Bee1002.PI * Math.pow(raio, 2)));
     }    
 }
