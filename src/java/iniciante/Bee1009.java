@@ -7,7 +7,7 @@ public class Bee1009 {
         
         Scanner scan = new Scanner(System.in);
 
-        String nomeVendedor = scan.nextLine();
+        scan.nextLine();
         double salarioFixo = scan.nextDouble();
         double valorTotalVendasEfetuadas = scan.nextDouble();
         

@@ -7,14 +7,14 @@ public class Bee1010 {
         
         Scanner scan = new Scanner(System.in);
 
-        int codPeca1, quantDePeca1, codPeca2, quantDePeca2;
+        int quantDePeca1, quantDePeca2;
         double valorUnidadePeca1, valorUnidadePeca2, soma;
 
-        codPeca1 = scan.nextInt();
+        scan.nextInt(); // cod1
         quantDePeca1 = scan.nextInt();
         valorUnidadePeca1 = scan.nextDouble();
 
-        codPeca2 = scan.nextInt();
+        scan.nextInt(); // cod2
         quantDePeca2 = scan.nextInt();
         valorUnidadePeca2 = scan.nextDouble(); 
         
