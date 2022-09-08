@@ -24,7 +24,7 @@ public class Bee1018 {
         }        
 
         for (int i = 0; i < quant_notas.length; i++) {
-            System.out.printf("%d nota(s) de R$ %d,00\n", quant_notas[i], notas[i]);
+            System.out.printf("%d nota(s) de R$ %d\n", quant_notas[i], notas[i]);
         }
         System.out.println("");
     }
