@@ -11,6 +11,8 @@ public class Bee1018 {
 
         double valor = scan.nextInt();
 
+        scan.close();
+
         int [] notas = {100, 50, 20, 10, 5, 2, 1};       
         int [] quant_notas = new int[7];
         
