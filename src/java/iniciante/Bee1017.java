@@ -14,9 +14,12 @@ public class Bee1017 {
         double tempo_gasto_viagem = scan.nextInt();
         double velocidade_media = scan.nextInt();
 
+        scan.close();
+
         double litros_necessarios = (tempo_gasto_viagem*velocidade_media)/12;        
         
         System.out.printf("%.3f%n", litros_necessarios); 
+
     }
  
 }
