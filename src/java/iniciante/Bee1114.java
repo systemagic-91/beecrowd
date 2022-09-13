@@ -16,6 +16,9 @@ public class Bee1114 {
 
             if (tentativa.compareTo(senhaCorreta) == 0) {
                 validaSenha = true;
+                System.out.println("Acesso Permitido");
+            } else {
+                System.out.println("Senha Invalida");
             }
         }
 
